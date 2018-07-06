@@ -4,17 +4,19 @@
 
 ## Setup
 
-Add dependency in `package.json` and point to the repo:
+1. Add dependency to `package.json`:
 
-```json
-"devDependencies": {
-  "serverless-print-dots": "^1.0.0",
-}
-```
+    ```sh
+    yarn add -D serverless-print-dots
+    ```
+    or
+    ```sh
+    npm install -D serverless-print-dots
+    ```
 
-Add the plugin to `serverless.yml` file:
+2. Add the plugin to `serverless.yml` file:
 
-```yaml
-plugins:
-  - serverless-print-dots
-```
+    ```yaml
+    plugins:
+      - serverless-print-dots
+    ```
