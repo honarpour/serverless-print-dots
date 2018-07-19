@@ -1,6 +1,10 @@
 # Serverless Print Dots
 
-> A plugin to print dots in Serverless log during deployment to indicate progress and prevent timeouts in CI/CD platforms.
+> A Serverless plugin for printing dots in Serverless log during deployment to indicate progress and prevent timeouts in CI/CD platforms.
+
+## Use Case
+
+Deploying or updating CloudFront distributions on AWS can take about 20-30 minutes to complete, exceeding some CI/CD platforms' timeout limit, causing a false failed build while deployment is still in progress on AWS. This plugins prints a dot in the Serverless console at intervals to create a diff in logs and therefore prevent timeouts.
 
 ## Setup
 

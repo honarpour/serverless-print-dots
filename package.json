@@ -1,7 +1,7 @@
 {
   "name": "serverless-print-dots",
-  "version": "1.0.2",
-  "description": "A plugin to print dots in Serverless log during deployment to indicate progress and prevent timeouts in CI/CD platforms.",
+  "version": "1.0.3",
+  "description": "A Serverless plugin for printing dots in Serverless log during deployment to indicate progress and prevent timeouts in CI/CD platforms.",
   "author": "Amir Honarpour <ahonarpour@klick.com>",
   "repository": {
     "type" : "git",
