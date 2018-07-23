@@ -4,7 +4,7 @@
 
 ## Use Case
 
-Deploying or updating CloudFront distributions on AWS can take about 20-30 minutes to complete, exceeding some CI/CD platforms' timeout limit, causing a false failed build while deployment is still in progress on AWS. This plugins prints a dot in the Serverless console at intervals to create a diff in logs and therefore prevent timeouts.
+Deploying or updating CloudFront distributions on AWS can take about 20-30 minutes to complete, exceeding some CI/CD platforms' timeout limit, causing a false failed build while deployment is still in progress on AWS. This plugin prints a dot in the Serverless console at intervals to create a diff in logs and therefore prevent timeouts.
 
 ## Setup
 
